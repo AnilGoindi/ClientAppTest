@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Welcome to the License request page</h2>
+        
+    <form action="/" method="post">
+        <label type="text">License Number:</label>
+        <input type="text" value=<%= licenceNumber %> placeholder="Enter license number"  name="licenceNumber">
+        <br><br>
+        <button type="submit">Submit Request</button>
+    </form>
+
+</body>
+</html>
