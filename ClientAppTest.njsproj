@@ -34,9 +34,6 @@
     </Content>
     <Content Include="package - Copy.json" />
     <Content Include="package.json" />
-    <Content Include="putLicense.js">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="README.md" />
     <Content Include="style.css">
       <SubType>Code</SubType>
