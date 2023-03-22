@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body ng-app="myTmoApppdl" ng-controller="myCtrl">
+        <div class="container">
+            <div class="form-group">
+                <form class="form" role="form" method="post" ng-submit="signin()">
+                    <div class="form-group col-md-6">
+                        <label class="">License Number</label>
+                        <input type="text" class="form-control" id="licenseNumber" placeholder="License Number" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="">clientName</label>
+                        <input type="text" class="form-control" id="clientName" placeholder="Client Name" required>
+                    </div>
+                </form>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </div>
+        </div>
+    </body>
+
+
+</html>
